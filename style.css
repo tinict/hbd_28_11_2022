@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+}
+
+.container__virus {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(46, 46, 46, 0.623);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.alert-virus {
+    width: 80%;
+    height: 550px;
+    padding: 32px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+}
+
+.alert-virus .title {
+    font-size: 16px !important;
+    margin: 16px 0;
+}
+
+.Sub-header-alert {
+    display: flex;
+    margin: 16px 0;
+    font-size: 20px;
+}
+
+.Sub-header-alert .fa-triangle-exclamation {
+    color: rgb(234, 3, 3);
+    margin-right: 16px;
+}
+
+.Sub-header-alert .alert__cb{
+    font-weight: 600;
+    color: rgb(234, 3, 3);
+}
+
+.alert-virus img {
+    width: 35%;
+}
+
+.alert-virus .title {
+    font-size: 14px;
+}
+
+.update_site {
+    margin-top: 40px;
+}
+
+.update_site .title {
+    font-size: 14px;
+    color: rgb(75, 75, 75);
+}
+
+.update_site .content p{
+    margin: 10px 0;
+    font-weight: 550;
+    color: rgb(158, 157, 157);
+    font-size: 14px;
+}
+
+.btn_update {
+    width: 200px;
+    padding: 10px;
+    font-weight: 600;
+    color: aliceblue;
+    background-color: rgb(196, 133, 255);
+    margin: 24px 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: calc(50% - 100px);
+    cursor: pointer;
+}
