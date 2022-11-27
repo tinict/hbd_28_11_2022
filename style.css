@@ -25,13 +25,13 @@
 }
 
 .alert-virus {
-    width: 80%;
-    height: 550px;
-    padding: 32px;
+    width: 90%;
+    height: 590px;
+    padding: 30px;
     background-color: white;
     position: absolute;
     z-index: 1;
-    left: 10%;
+    left: 5%;
 }
 
 .alert-virus .title {
