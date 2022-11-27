@@ -30,12 +30,13 @@
 
 .alert-virus {
     width: 90%;
-    height: 600px;
+    height: 500px;
     padding: 20px;
     background-color: white;
     position: absolute;
     z-index: 1;
     left: 5%;
+    border-radius: 10px;
 }
 
 .alert-virus .title {
@@ -84,7 +85,7 @@
     margin: 10px 0;
     font-weight: 550;
     color: rgb(158, 157, 157);
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .btn_update {
