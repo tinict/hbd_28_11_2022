@@ -31,7 +31,7 @@
 .alert-virus {
     width: 90%;
     height: 600px;
-    padding: 30px;
+    padding: 20px;
     background-color: white;
     position: absolute;
     z-index: 1;
@@ -40,7 +40,7 @@
 
 .alert-virus .title {
     font-size: 14px !important;
-    margin: 16px 0;
+    margin: 14px 0;
 }
 
 .alert-virus .title span {
