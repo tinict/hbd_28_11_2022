@@ -30,7 +30,7 @@
 
 .alert-virus {
     width: 90%;
-    height: 650px;
+    height: 600px;
     padding: 30px;
     background-color: white;
     position: absolute;
@@ -39,8 +39,12 @@
 }
 
 .alert-virus .title {
-    font-size: 16px !important;
+    font-size: 14px !important;
     margin: 16px 0;
+}
+
+.alert-virus .title span {
+    color: rgb(253, 112, 112);
 }
 
 .Sub-header-alert {
@@ -98,4 +102,8 @@
     margin-left: calc(50% - 100px);
     cursor: pointer;
     border-radius: 5px;
+}
+
+.content span {
+    color: rgb(249, 55, 55);
 }
